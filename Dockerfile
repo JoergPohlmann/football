@@ -3,7 +3,8 @@ FROM $DOCKER_BASE
 ARG DEVICE
 
 # Fix
-# 2. Fix Docker ----
+# 2. Fix DockerFile
+# 2. Fix Docker
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -yq git cmake build-essential \
